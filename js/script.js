@@ -31,3 +31,6 @@ function menuOnClick() {
   document.getElementById("main-menu").classList.toggle("change");
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
+document.querySelector( "#sun" ).onclick = () => {
+	document.querySelector( "#retrobg" ).classList.toggle( "shutdown" );
+};
